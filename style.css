@@ -1,0 +1,128 @@
+
+  .one{
+background: rgb(99, 212, 250);
+font-size: 70px;
+    text-align: center;
+    font-family: "Apple Chancery, cursive";
+    color: rgb(10, 104, 136);
+
+  }
+  .box {
+    /* min-height: 40px; */
+    width: 170px;
+    padding: 20px;
+    /* margin-bottom: 10px; */
+    margin: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Apple Chancery, cursive";
+    color: silver;
+  }
+  .skyblue {
+    background: deepskyblue;
+  }
+    .alink:hover{
+        /* text-decoration:none; */
+        color:black;
+    }
+    a{
+        display: block;
+        color: silver;
+      }
+    a {color: deepskyblue;}
+
+  .red {
+    background: aquamarine;
+  }
+  .titlebox {
+    font-size: 50px;
+    min-height: 40px;
+    /* max-width: 900px; */
+    min-width: 350px;
+    padding: 20px;
+    margin: 20px;
+    font-weight: 600;
+    text-align: center;
+    font-family: "Apple Chancery, cursive"
+  }
+  body {
+
+    background: rgb(139, 134, 124);
+  }
+  .explanation {
+    padding: 20px;
+    background: silver;
+    margin: 20px;
+    font-family: "Apple Chancery, cursive";
+    font-size: 18px;
+  }
+  .imgs{
+    min-width: 350px;
+    min-height:350px;
+    padding: 5px;
+    margin: 20px;
+  }
+  li {
+    display: block;
+    transition-duration: 0.8s;
+    color: skyblue;
+    font-size: 20px;
+   }
+   
+   li:hover {
+     cursor: pointer;
+     color: skyblue;
+   }
+   
+   ul li ul {
+     visibility: hidden;
+     /* opacity: 1; */
+     position: absolute;
+     transition: all 0.8s ease;
+     margin-top: 1rem;
+     left: 0;
+     display: none;
+     color: skyblue;
+   }
+   
+   ul li:hover > ul,
+   ul li ul:hover {
+     visibility: visible;
+     /* opacity: 1; */
+     display: block;
+     color: skyblue;
+     background: white;
+     width: 70%;
+   }
+   
+   ul li ul li {
+     /* clear: both; */
+     width: 500%;
+     color: skyblue;
+     padding: 10px;
+   }
+   .dropdown{
+    color: skyblue;   
+   }
+   .table {
+    font-size: 15pt; 
+    font-family: "Apple Chancery, cursive";
+    border-collapse: collapse; 
+    border: 1px solid silver;
+    
+
+}
+
+.table td, th {
+    padding: 10px;
+}
+
+.table tr:nth-child(even) {
+    background: #E0E0E0;
+}
+
+.table tr:hover {
+    background: silver;
+    cursor: pointer;
+}
